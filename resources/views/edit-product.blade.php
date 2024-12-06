@@ -21,19 +21,19 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div>
                             <label for="category" class="block text-gray-700">Category</label>
-                            <input type="email" id="category" name="category" value="{{old ('category', $product->category) }}" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
+                            <input type="text" id="category" name="category" value="{{old ('category', $product->category) }}" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
                         </div>
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div>
                             <label for="price" class="block text-gray-700">Price</label>
-                            <input type="number" id="price" name="price" value="{{old ('price', $sproduct->price) }}" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
+                            <input type="number" id="price" name="price" value="{{old ('price', $product->price) }}" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
                         </div>
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div>
-                            <label for="stockquality" class="block text-gray-700">Email</label>
-                            <input type="number" id="stockquality" name="stockquality" value="{{old ('stockquality', $product->estockquality) }}" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
+                            <label for="stockquantity" class="block text-gray-700">Stock Quantity</label>
+                            <input type="number" id="stockquantity" name="stockquantity" value="{{old ('stockquantity', $product->stockquantity) }}" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
                         </div>
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
